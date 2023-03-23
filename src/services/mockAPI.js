@@ -25,3 +25,28 @@ export const removeContactAPI = async id => {
     console.log(error);
   }
 };
+
+// export const registerAPI = async data => {
+//   try {
+//     const response = await axios.post(`/users/signup`, data);
+//     return response.data;
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+// export const loginAPI = async data => {
+//   try {
+//     const response = await axios.post(`/users/login`, data);
+//     return response.data;
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
+// export const logoutAPI = async () => {
+//   try {
+//     const response = await axios.post(`/users/logout`);
+//     return response.data;
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };
