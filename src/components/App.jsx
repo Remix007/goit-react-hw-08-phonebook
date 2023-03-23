@@ -46,17 +46,3 @@ const App = () => {
 };
 
 export default App;
-
-// const isLoggedIn = useSelector(authSelectors.getIsloggedIn);
-/* {isLoggedIn ? (
-  <Routes>
-    <Route path="/contacts" element={<Contacts />} />
-    <Route path="*" element={<Contacts />} />
-  </Routes>
-) : (
-  <Routes>
-    <Route path="/registration" element={<Registration />} />
-    <Route path="/login" element={<Login />} />
-    <Route path="*" element={<Registration />} />
-  </Routes>
-)} */
