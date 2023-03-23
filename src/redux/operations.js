@@ -3,7 +3,7 @@ import {
   addContactAPI,
   getContactsAPI,
   removeContactAPI,
-} from 'sevices/mockAPI';
+} from 'services/mockAPI';
 
 export const addContact = createAsyncThunk(
   'contacts/add',
